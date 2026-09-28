@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/hingelane",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hinge identifiers and lane tokens for idempotent workflows.",
+  "bin": {
+    "hingelane": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/hingelane.git"
+  },
+  "homepage": "https://theworker02.github.io/hingelane/",
+  "keywords": [
+    "hinge",
+    "lane",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
